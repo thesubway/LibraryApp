@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  navTut
+//  LibraryApp
 //
 //  Created by Daniel Hoang on 6/26/14.
 //  Copyright (c) 2014 Daniel Hoang. All rights reserved.

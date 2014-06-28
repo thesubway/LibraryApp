@@ -1,14 +1,6 @@
-//
-//  navTutTests.swift
-//  navTutTests
-//
-//  Created by Daniel Hoang on 6/26/14.
-//  Copyright (c) 2014 Daniel Hoang. All rights reserved.
-//
-
 import XCTest
 
-class navTutTests: XCTestCase {
+class LibraryBooksTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
