@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mpT-YU-vzU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mpT-YU-vzU">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <deployment defaultVersion="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Library List-->
+        <!--Library List-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="navTut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="LibraryBooks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -20,19 +21,19 @@
                                 <rect key="frame" x="0.0" y="102" width="320" height="466"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="1jT-hs-Wlf">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="1jT-hs-Wlf">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1jT-hs-Wlf" id="4dc-98-kb3">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Nc5-SG-umT">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Nc5-SG-umT">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nc5-SG-umT" id="hPS-i0-6uT">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="si3-Vk-ZFm">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="si3-Vk-ZFm">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="si3-Vk-ZFm" id="TwL-kl-oBY">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -61,7 +62,10 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" id="vdr-ZD-m0n"/>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                     <connections>
                         <outlet property="tblTasks" destination="ro9-KD-Ipp" id="4IB-ZI-jUR"/>
                     </connections>
@@ -70,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="-304" y="-70"/>
         </scene>
-        <!--My View Controller2 - Title-->
+        <!--Title-->
         <scene sceneID="8sj-Qe-gVV">
             <objects>
-                <viewController storyboardIdentifier="view2" id="1tk-JM-2qI" customClass="myViewController2" customModule="navTut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view2" id="1tk-JM-2qI" customClass="myViewController2" customModule="LibraryBooks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y8v-Tb-qe5"/>
                         <viewControllerLayoutGuide type="bottom" id="SLG-Id-CoB"/>
@@ -86,19 +90,19 @@
                                 <rect key="frame" x="0.0" y="103" width="320" height="465"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="A7D-qg-bC4">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="A7D-qg-bC4">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A7D-qg-bC4" id="9HO-Y5-CjM">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Dan-1n-Jrl">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Dan-1n-Jrl">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dan-1n-Jrl" id="Eqz-Ar-pQR">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="9uR-5v-eG4">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="9uR-5v-eG4">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9uR-5v-eG4" id="x6S-xi-Y4w">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -125,7 +129,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="srI-kf-giK"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                     <connections>
                         <outlet property="tblTasks" destination="7F6-7o-rhw" id="zo0-3V-aGh"/>
                     </connections>
@@ -137,7 +144,7 @@
         <!--My View Controller3 - Scene 3-->
         <scene sceneID="A2d-sy-DcN">
             <objects>
-                <viewController storyboardIdentifier="view3" id="uou-TG-jTB" userLabel="My View Controller3 - Scene 3" customClass="myViewController3" customModule="navTut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view3" id="uou-TG-jTB" userLabel="My View Controller3 - Scene 3" customClass="myViewController3" customModule="LibraryBooks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="InN-Is-xHg"/>
                         <viewControllerLayoutGuide type="bottom" id="hvN-Tt-hWS"/>
@@ -186,7 +193,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Book List" id="ZgW-uq-npA"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                     <connections>
                         <outlet property="tblTasks" destination="PfU-W5-8E0" id="W72-Q2-VDq"/>
                     </connections>
@@ -198,7 +208,7 @@
         <!--My View Controller5 - Scene 5-->
         <scene sceneID="ifB-0d-4CY">
             <objects>
-                <viewController storyboardIdentifier="view5" id="DXo-yu-Qfb" userLabel="My View Controller5 - Scene 5" customClass="myViewController5" customModule="navTut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view5" id="DXo-yu-Qfb" userLabel="My View Controller5 - Scene 5" customClass="myViewController5" customModule="LibraryBooks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ToO-Kd-JfU"/>
                         <viewControllerLayoutGuide type="bottom" id="h66-EC-Fy2"/>
@@ -243,7 +253,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                     <connections>
                         <outlet property="txtTitle" destination="weL-0W-1oD" id="9UN-47-u3l"/>
                     </connections>
@@ -258,7 +271,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mpT-YU-vzU" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fq0-bf-e7T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -275,7 +291,7 @@
         <!--My View Controller4 - Scene 4-->
         <scene sceneID="ojP-nr-ptT">
             <objects>
-                <viewController storyboardIdentifier="view4" id="bqD-WP-q65" userLabel="My View Controller4 - Scene 4" customClass="myViewController4" customModule="navTut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view4" id="bqD-WP-q65" userLabel="My View Controller4 - Scene 4" customClass="myViewController4" customModule="LibraryBooks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fqe-xO-qko"/>
                         <viewControllerLayoutGuide type="bottom" id="tDL-J7-pCP"/>
@@ -308,7 +324,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                     <connections>
                         <outlet property="txtTitle" destination="6S8-4p-QVl" id="Atf-Op-fQK"/>
                     </connections>

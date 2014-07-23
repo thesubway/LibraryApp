@@ -6,7 +6,7 @@ struct task{
 }
 
 class TaskManager: NSObject {
-    var tasks = task[]()
+    var tasks = [task]()
     
     func addTask(name:String, desc:String){
         tasks.append(task(name: name, desc: desc))

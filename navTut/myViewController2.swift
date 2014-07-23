@@ -48,7 +48,7 @@ class myViewController2: UIViewController,UITableViewDelegate, UITableViewDataSo
     }
     //if cell is clicked:
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
-        println(tableView.cellForRowAtIndexPath(indexPath).text)
+        println(tableView.cellForRowAtIndexPath(indexPath).textLabel.text)
         cellCurrentIndex = indexPath.row
     }
     
@@ -68,7 +68,7 @@ class myViewController2: UIViewController,UITableViewDelegate, UITableViewDataSo
         
         //to avoid out of index, use the if-method here:
         if (indexPath.row < currentLib.numShelves) {
-            cell.text = taskMgr.tasks[indexPath.row].name
+            cell.textLabel.text = taskMgr.tasks[indexPath.row].name
             cell.detailTextLabel.text = taskMgr.tasks[indexPath.row].desc
         }
         return cell

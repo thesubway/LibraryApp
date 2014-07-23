@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D86C48F195D011C006C4EBB"
-               BuildableName = "navTut.app"
+               BuildableName = "LibraryBooks.app"
                BlueprintName = "LibraryBooks"
                ReferencedContainer = "container:LibraryBooks.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D86C4A1195D011C006C4EBB"
-               BuildableName = "navTutTests.xctest"
+               BuildableName = "LibraryBooksTests.xctest"
                BlueprintName = "LibraryBooksTests"
                ReferencedContainer = "container:LibraryBooks.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D86C48F195D011C006C4EBB"
-            BuildableName = "navTut.app"
+            BuildableName = "LibraryBooks.app"
             BlueprintName = "LibraryBooks"
             ReferencedContainer = "container:LibraryBooks.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D86C48F195D011C006C4EBB"
-            BuildableName = "navTut.app"
+            BuildableName = "LibraryBooks.app"
             BlueprintName = "LibraryBooks"
             ReferencedContainer = "container:LibraryBooks.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D86C48F195D011C006C4EBB"
-            BuildableName = "navTut.app"
+            BuildableName = "LibraryBooks.app"
             BlueprintName = "LibraryBooks"
             ReferencedContainer = "container:LibraryBooks.xcodeproj">
          </BuildableReference>

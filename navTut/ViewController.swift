@@ -13,7 +13,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     var taskMgr: TaskManager = TaskManager()
     @IBOutlet var tblTasks: UITableView!
     var cellCurrentIndex = -1
-    var libraries: Library[] = []
+    var libraries: [Library] = []
     
     
     override func viewDidLoad() {
@@ -57,7 +57,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     //if cell is clicked:
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
-        println(tableView.cellForRowAtIndexPath(indexPath).text)
+        println(tableView.cellForRowAtIndexPath(indexPath).textLabel.text)
         cellCurrentIndex = indexPath.row
     }
     
@@ -99,7 +99,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Test")
         
         //extract the data we want
-        cell.text = taskMgr.tasks[indexPath.row].name
+        cell.textLabel.text = taskMgr.tasks[indexPath.row].name
         cell.detailTextLabel.text = taskMgr.tasks[indexPath.row].desc
         
         return cell
